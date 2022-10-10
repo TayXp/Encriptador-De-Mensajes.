@@ -1,0 +1,83 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background-image: url("hFv6ZfVq_4x.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+.informacion{
+    background: transparent;
+    color: snow;
+    text-shadow: 1px 1px 1px black;
+}
+
+.input-texto {
+    margin-top: 90px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: snow;
+    text-shadow: 1px 1px 1px black;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("hombre-en-la-línea-icono-de-lupa-el-estilo-neón-uno-buscar-colección-hora-se-puede-utilizar-para-ui-ux-123454176-removebg-preview-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: snow;
+    text-shadow: 1px 1px 1px black;
+    
+
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    border-radius: 10px;
+    background: linear-gradient(#87cce7, #51c2f6);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(134, 5, 96);
+    color:white;
+    border-radius: 10px;
+    background: linear-gradient(#d4c4e9, #8b51f6)
+}
+
+.desencriptar { 
+    margin-left: 30px;
+    border-radius: 10px;
+    background: linear-gradient( #f151f6, #720372)
+}
+
+.informacion {
+    font-size: 15px;
+}
